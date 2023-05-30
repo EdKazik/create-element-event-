@@ -9,9 +9,9 @@ const cont = document.querySelector(".container");
 input.addEventListener("mouseover", () => {
     document.querySelector(".container").appendChild(newBlock);
     
-})
+});
 input.addEventListener("mouseout", () => {
     newBlock.style.background = 'white';
-})
+});
 
 
