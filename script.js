@@ -11,7 +11,7 @@ input.addEventListener("mouseover", () => {
     
 })
 input.addEventListener("mouseout", () => {
-    newBlock.style.background = 'white';
+    newBlock.remove();
 })
 
 
